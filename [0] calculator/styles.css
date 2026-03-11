@@ -1,0 +1,90 @@
+/* Importa a fonte do Google */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+/* Remove margens e espaços padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: #111;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa principal da calculadora */
+.container {
+  width: 320px;
+  background: #000;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+/* Área da tela */
+.screen {
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Número mostrado na tela */
+#display {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+/* Área dos botões */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Estilo base de todos os botões */
+button {
+  height: 65px;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  opacity: 0.85;
+}
+
+/* Botões de operação */
+.operation {
+  background: #f69906;
+}
+
+/* Botão de limpar */
+#clear {
+  background: #a5a5a5;
+  color: black;
+}
+
+/* Botão de igual */
+#equals {
+  background: #f69906;
+}
+
+/* Botão zero ocupa duas colunas */
+.zero {
+  grid-column: span 2;
+  border-radius: 40px;
+}
