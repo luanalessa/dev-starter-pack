@@ -1,6 +1,4 @@
-<p align="center">
-<img width="600" height="1024" alt="dev-starter-pack-icon" src="https://github.com/user-attachments/assets/3bfbdf72-d444-49ea-b775-16a4db32e5f1" />
-</p>
+
 
 <p align="center">
    <img src="https://img.shields.io/badge/autor-luanalessa-ada86b?style=flat-square" />
